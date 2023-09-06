@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+
+  .stroke {
+    -webkit-text-stroke: 1px #15a344;
+    text-stroke: 1px #11d151;
+  }
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.ace_editor {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100% !important;
+  height: calc(85vh - 4rem) !important;
+}
+
+select:focus {
+  outline: none;
+}
+
+.ace_scrollbar {
+  display: none !important;
+}
+
+.ace_editor .ace_gutter {
+  background: rgb(39, 40, 34) !important;
+  color: #718096 !important;
+}
