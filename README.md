@@ -6,4 +6,4 @@ This is a simple code editor that allows you to write code in HTML, CSS and Java
 
 ## Live Demo
 
-[Code Editor](https://yahyaemre.dev/editor)
+[Code Editor](https://ceditor-cyan.vercel.app)
