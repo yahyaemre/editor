@@ -9,7 +9,7 @@ export default function Editor() {
     return (
         <div className='bg-[#272822] lg:w-[60%] w-[70%] text-white py-2 px-4'>
             <div className="w-full">
-                <p className='py-2 stroke text-transparent text-xl font-extrabold'>editor.yahyaemre.dev</p>
+                <p className='py-2 stroke text-transparent text-xl font-extrabold'>yahyaemre.dev/editor</p>
                 <div className="flex justify-between  border-b py-4 border-neutral-700 items-center">
                     <div>
                         <button className='px-4 py-2 rounded-lg' style={(({
